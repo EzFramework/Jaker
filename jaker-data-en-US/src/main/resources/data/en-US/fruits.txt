@@ -1,0 +1,65 @@
+# Compiled from open-source fruit lists (Wikidata/Wikipedia-style public taxonomies).
+Apple|Pome
+Apricot|Stone Fruit
+Avocado|Berry
+Banana|Berry
+Bilberry|Berry
+Blackberry|Aggregate
+Blackcurrant|Berry
+Blueberry|Berry
+Boysenberry|Aggregate
+Breadfruit|Tropical
+Cantaloupe|Melon
+Cherimoya|Tropical
+Cherry|Stone Fruit
+Clementine|Citrus
+Cloudberry|Aggregate
+Coconut|Drupe
+Cranberry|Berry
+Currant|Berry
+Date|Drupe
+Dragon Fruit|Cactus Fruit
+Durian|Tropical
+Elderberry|Berry
+Feijoa|Berry
+Fig|Multiple Fruit
+Goji Berry|Berry
+Gooseberry|Berry
+Grapefruit|Citrus
+Grape|Berry
+Guava|Berry
+Honeydew|Melon
+Jackfruit|Tropical
+Jujube|Drupe
+Kiwi|Berry
+Kumquat|Citrus
+Lemon|Citrus
+Lime|Citrus
+Longan|Tropical
+Loquat|Pome
+Lychee|Tropical
+Mandarin|Citrus
+Mango|Stone Fruit
+Mangosteen|Tropical
+Mulberry|Multiple Fruit
+Nectarine|Stone Fruit
+Olive|Drupe
+Orange|Citrus
+Papaya|Berry
+Passion Fruit|Berry
+Peach|Stone Fruit
+Pear|Pome
+Persimmon|Berry
+Pineapple|Tropical
+Plum|Stone Fruit
+Pomegranate|Berry
+Pomelo|Citrus
+Quince|Pome
+Raspberry|Aggregate
+Redcurrant|Berry
+Star Fruit|Tropical
+Strawberry|Aggregate
+Tamarind|Legume Fruit
+Tangerine|Citrus
+Ugli Fruit|Citrus
+Watermelon|Melon

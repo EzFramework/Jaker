@@ -1,0 +1,250 @@
+# Source: Java Locale country display names for locale fr using ISO 3166-1 alpha-2 codes
+Afghanistan|AF
+Albanie|AL
+Algérie|DZ
+Samoa américaines|AS
+Andorre|AD
+Angola|AO
+Anguilla|AI
+Antarctique|AQ
+Antigua-et-Barbuda|AG
+Argentine|AR
+Arménie|AM
+Aruba|AW
+Australie|AU
+Autriche|AT
+Azerbaïdjan|AZ
+Bahamas|BS
+Bahreïn|BH
+Bangladesh|BD
+Barbade|BB
+Biélorussie|BY
+Belgique|BE
+Belize|BZ
+Bénin|BJ
+Bermudes|BM
+Bhoutan|BT
+Bolivie|BO
+Pays-Bas caribéens|BQ
+Bosnie-Herzégovine|BA
+Botswana|BW
+Île Bouvet|BV
+Brésil|BR
+Territoire britannique de l’océan Indien|IO
+Brunei|BN
+Bulgarie|BG
+Burkina Faso|BF
+Burundi|BI
+Cap-Vert|CV
+Cambodge|KH
+Cameroun|CM
+Canada|CA
+Îles Caïmans|KY
+République centrafricaine|CF
+Tchad|TD
+Chili|CL
+Chine|CN
+Île Christmas|CX
+Îles Cocos|CC
+Colombie|CO
+Comores|KM
+Congo-Brazzaville|CG
+Congo-Kinshasa|CD
+Îles Cook|CK
+Costa Rica|CR
+Croatie|HR
+Cuba|CU
+Curaçao|CW
+Chypre|CY
+Tchéquie|CZ
+Côte d’Ivoire|CI
+Danemark|DK
+Djibouti|DJ
+Dominique|DM
+République dominicaine|DO
+Équateur|EC
+Égypte|EG
+Salvador|SV
+Guinée équatoriale|GQ
+Érythrée|ER
+Estonie|EE
+Eswatini|SZ
+Éthiopie|ET
+Îles Malouines|FK
+Îles Féroé|FO
+Fidji|FJ
+Finlande|FI
+France|FR
+Guyane française|GF
+Polynésie française|PF
+Terres australes françaises|TF
+Gabon|GA
+Gambie|GM
+Géorgie|GE
+Allemagne|DE
+Ghana|GH
+Gibraltar|GI
+Grèce|GR
+Groenland|GL
+Grenade|GD
+Guadeloupe|GP
+Guam|GU
+Guatemala|GT
+Guernesey|GG
+Guinée|GN
+Guinée-Bissau|GW
+Guyana|GY
+Haïti|HT
+Îles Heard-et-MacDonald|HM
+État de la Cité du Vatican|VA
+Honduras|HN
+R.A.S. chinoise de Hong Kong|HK
+Hongrie|HU
+Islande|IS
+Inde|IN
+Indonésie|ID
+Iran|IR
+Irak|IQ
+Irlande|IE
+Île de Man|IM
+Israël|IL
+Italie|IT
+Jamaïque|JM
+Japon|JP
+Jersey|JE
+Jordanie|JO
+Kazakhstan|KZ
+Kenya|KE
+Kiribati|KI
+Corée du Nord|KP
+Corée du Sud|KR
+Koweït|KW
+Kirghizstan|KG
+Laos|LA
+Lettonie|LV
+Liban|LB
+Lesotho|LS
+Liberia|LR
+Libye|LY
+Liechtenstein|LI
+Lituanie|LT
+Luxembourg|LU
+R.A.S. chinoise de Macao|MO
+Madagascar|MG
+Malawi|MW
+Malaisie|MY
+Maldives|MV
+Mali|ML
+Malte|MT
+Îles Marshall|MH
+Martinique|MQ
+Mauritanie|MR
+Maurice|MU
+Mayotte|YT
+Mexique|MX
+Micronésie|FM
+Moldavie|MD
+Monaco|MC
+Mongolie|MN
+Monténégro|ME
+Montserrat|MS
+Maroc|MA
+Mozambique|MZ
+Myanmar (Birmanie)|MM
+Namibie|NA
+Nauru|NR
+Népal|NP
+Pays-Bas|NL
+Nouvelle-Calédonie|NC
+Nouvelle-Zélande|NZ
+Nicaragua|NI
+Niger|NE
+Nigeria|NG
+Niue|NU
+Île Norfolk|NF
+Macédoine du Nord|MK
+Îles Mariannes du Nord|MP
+Norvège|NO
+Oman|OM
+Pakistan|PK
+Palaos|PW
+Territoires palestiniens|PS
+Panama|PA
+Papouasie-Nouvelle-Guinée|PG
+Paraguay|PY
+Pérou|PE
+Philippines|PH
+Îles Pitcairn|PN
+Pologne|PL
+Portugal|PT
+Porto Rico|PR
+Qatar|QA
+Roumanie|RO
+Russie|RU
+Rwanda|RW
+La Réunion|RE
+Saint-Barthélemy|BL
+Sainte-Hélène|SH
+Saint-Christophe-et-Niévès|KN
+Sainte-Lucie|LC
+Saint-Martin|MF
+Saint-Pierre-et-Miquelon|PM
+Saint-Vincent-et-les Grenadines|VC
+Samoa|WS
+Saint-Marin|SM
+Sao Tomé-et-Principe|ST
+Arabie saoudite|SA
+Sénégal|SN
+Serbie|RS
+Seychelles|SC
+Sierra Leone|SL
+Singapour|SG
+Saint-Martin (partie néerlandaise)|SX
+Slovaquie|SK
+Slovénie|SI
+Îles Salomon|SB
+Somalie|SO
+Afrique du Sud|ZA
+Géorgie du Sud-et-les Îles Sandwich du Sud|GS
+Soudan du Sud|SS
+Espagne|ES
+Sri Lanka|LK
+Soudan|SD
+Suriname|SR
+Svalbard et Jan Mayen|SJ
+Suède|SE
+Suisse|CH
+Syrie|SY
+Taïwan|TW
+Tadjikistan|TJ
+Tanzanie|TZ
+Thaïlande|TH
+Timor oriental|TL
+Togo|TG
+Tokelau|TK
+Tonga|TO
+Trinité-et-Tobago|TT
+Tunisie|TN
+Turkménistan|TM
+Îles Turques-et-Caïques|TC
+Tuvalu|TV
+Turquie|TR
+Ouganda|UG
+Ukraine|UA
+Émirats arabes unis|AE
+Royaume-Uni|GB
+Îles mineures éloignées des États-Unis|UM
+États-Unis|US
+Uruguay|UY
+Ouzbékistan|UZ
+Vanuatu|VU
+Venezuela|VE
+Viêt Nam|VN
+Îles Vierges britanniques|VG
+Îles Vierges des États-Unis|VI
+Wallis-et-Futuna|WF
+Sahara occidental|EH
+Yémen|YE
+Zambie|ZM
+Zimbabwe|ZW
+Îles Åland|AX

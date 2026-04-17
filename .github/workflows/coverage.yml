@@ -1,0 +1,53 @@
+name: Coverage
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: coverage-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  coverage:
+    name: Build, test, and publish coverage artifacts
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+
+      - name: Run tests with JaCoCo
+        run: mvn -B -ntp -Djacoco.minimum=0.0 verify
+
+      - name: Upload per-module JaCoCo HTML reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-module-reports
+          path: '**/target/site/jacoco'
+
+      - name: Upload aggregated JaCoCo report
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-aggregate-report
+          path: target/site/jacoco-aggregate
+
+      - name: Upload JaCoCo execution data
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-exec
+          path: '**/target/jacoco.exec'

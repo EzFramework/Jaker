@@ -1,0 +1,16 @@
+example.com
+example.org
+test.com
+example.net
+mycompany.com
+acme.com
+sample.io
+example.co
+mail.com
+service.io
+biz
+com
+info
+name
+net
+org

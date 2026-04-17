@@ -1,0 +1,33 @@
+name: Data Completeness Check
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'scripts/check-data-completeness.sh'
+      - 'jaker-data-*/**'
+      - '.github/workflows/data-completeness.yml'
+  pull_request:
+    paths:
+      - 'scripts/check-data-completeness.sh'
+      - 'jaker-data-*/**'
+      - '.github/workflows/data-completeness.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-completeness-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run data completeness script
+        run: bash ./scripts/check-data-completeness.sh

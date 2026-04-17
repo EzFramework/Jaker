@@ -1,0 +1,249 @@
+New York
+Los Angeles
+Chicago
+Houston
+Phoenix
+Philadelphia
+San Antonio
+San Diego
+Dallas
+San Jose
+Abilene
+Akron
+Alafaya
+Alameda
+Albany
+Albuquerque
+Alexandria
+Alhambra
+Aliso Viejo
+Allen
+Allentown
+Aloha
+Alpharetta
+Altadena
+Altamonte Springs
+Altoona
+Amarillo
+Ames
+Anaheim
+Anchorage
+Anderson
+Ankeny
+Ann Arbor
+Annandale
+Antelope
+Antioch
+Apex
+Apopka
+Apple Valley
+Appleton
+Arcadia
+Arden-Arcade
+Arecibo
+Arlington
+Arlington Heights
+Arvada
+Ashburn
+Asheville
+Aspen Hill
+Atascocita
+Athens-Clarke County
+Atlanta
+Attleboro
+Auburn
+Augusta-Richmond County
+Aurora
+Austin
+Avondale
+Azusa
+Bakersfield
+Baldwin Park
+Baltimore
+Barnstable Town
+Bartlett
+Baton Rouge
+Battle Creek
+Bayamon
+Bayonne
+Baytown
+Beaumont
+Beavercreek
+Beaverton
+Bedford
+Bel Air South
+Bell Gardens
+Belleville
+Bellevue
+Bellflower
+Bellingham
+Bend
+Bentonville
+Berkeley
+Berwyn
+Bethesda
+Bethlehem
+Billings
+Biloxi
+Binghamton
+Birmingham
+Bismarck
+Blacksburg
+Blaine
+Bloomington
+Blue Springs
+Boca Raton
+Boise City
+Bolingbrook
+Bonita Springs
+Bossier City
+Boston
+Bothell
+Boulder
+Bountiful
+Bowie
+Bowling Green
+Boynton Beach
+Bozeman
+Bradenton
+Brandon
+Brentwood
+Bridgeport
+Bristol
+Brockton
+Broken Arrow
+Brookhaven
+Brookline
+Brooklyn Park
+Broomfield
+Brownsville
+Bryan
+Buckeye
+Buena Park
+Buffalo
+Buffalo Grove
+Burbank
+Burien
+Burke
+Burleson
+Burlington
+Burnsville
+Caguas
+Caldwell
+Camarillo
+Cambridge
+Camden
+Canton
+Cape Coral
+Carlsbad
+Carmel
+Carmichael
+Carolina
+Carrollton
+Carson
+Carson City
+Cary
+Casa Grande
+Casas Adobes
+Casper
+Castle Rock
+Castro Valley
+Catalina Foothills
+Cathedral City
+Catonsville
+Cedar Hill
+Cedar Park
+Cedar Rapids
+Centennial
+Centreville
+Ceres
+Cerritos
+Champaign
+Chandler
+Chapel Hill
+Charleston
+Charlotte
+Charlottesville
+Chattanooga
+Cheektowaga
+Chesapeake
+Chesterfield
+Cheyenne
+Chico
+Chicopee
+Chino
+Chino Hills
+Chula Vista
+Cicero
+Cincinnati
+Citrus Heights
+Clarksville
+Clearwater
+Cleveland
+Cleveland Heights
+Clifton
+Clovis
+Coachella
+Coconut Creek
+Leesburg
+Lehi
+Lehigh Acres
+Lenexa
+Levittown
+Lewisville
+Lexington-Fayette
+Lincoln
+Linden
+Little Rock
+Littleton
+Livermore
+Livonia
+Lodi
+Logan
+Lombard
+Lompoc
+Long Beach
+Longmont
+Longview
+Lorain
+Louisville/Jefferson County
+Loveland
+Lowell
+Lubbock
+Lynchburg
+Lynn
+Lynwood
+Macon-Bibb County
+Madera
+Madison
+Malden
+Manchester
+Manhattan
+Mansfield
+Manteca
+Maple Grove
+Margate
+Maricopa
+Marietta
+Marysville
+Mayaguez
+McAllen
+McKinney
+McLean
+Medford
+Melbourne
+Memphis
+Menifee
+Mentor
+Merced
+Meriden
+Meridian
+Mesa
+Mesquite
+Metairie
+Methuen Town
+Miami
+Miami Beach
+Miami Gardens
+Coeur d'Alene
+College Station

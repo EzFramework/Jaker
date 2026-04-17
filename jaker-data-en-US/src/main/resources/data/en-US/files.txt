@@ -1,0 +1,16 @@
+# Derived from open-source file extension and fixture filename lists.
+README|md|4096
+archive|zip|1048576
+backup|tar.gz|2097152
+invoice_2026|pdf|232448
+profile_photo|jpg|345678
+app_bundle|apk|52428800
+dataset|csv|81920
+presentation|pptx|7340032
+music_track|mp3|5939200
+video_clip|mp4|15728640
+script|js|40960
+styles|css|5120
+payload|json|3072
+notes|txt|1024
+report|docx|262144

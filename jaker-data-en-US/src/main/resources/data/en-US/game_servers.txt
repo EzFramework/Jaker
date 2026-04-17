@@ -1,0 +1,11 @@
+# Inspired by open-source game/server seed datasets.
+Minecraft|203.0.113.10|1.20.4
+Counter-Strike 2|198.51.100.22|1.40.2.3
+Rust|198.51.100.55|2528
+Valheim|203.0.113.39|0.218.15
+Terraria|203.0.113.45|1.4.4.9
+Factorio|198.51.100.71|2.0.31
+ARK: Survival Evolved|198.51.100.88|358.24
+Project Zomboid|203.0.113.91|41.78.16
+Unturned|198.51.100.140|3.24.2.0
+Don't Starve Together|203.0.113.165|676312

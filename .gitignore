@@ -1,0 +1,63 @@
+## Maven / Java
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Package metadata
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+## IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+/.vscode/
+/.factorypath
+out/
+
+## Build tools
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+/.gradle/
+
+## OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+## Logs
+*.log
+hs_err_pid*
+
+## Temporary / editors
+tmp/
+*.swp
+*~
+.idea/**/workspace.xml
+
+## Test reports
+**/surefire-reports/
+**/failsafe-reports/
+
+## Local config
+local.properties
+settings-local.xml
+
+## Misc
+*.class
+bin/
+coverage/
+
+# Keep dataset packs in source (do NOT ignore *.bin in src/main/resources)
+# ignore generated packs under target
+**/target/**/data/**/*.bin

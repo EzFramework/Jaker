@@ -1,0 +1,249 @@
+Hauptstraße
+Bahnhofstraße
+Kirchweg
+Lindenstraße
+Gartenweg
+Schillerstraße
+Friedrichstraße
+Mozartstraße
+Bergstraße
+Rathausplatz
+Ackerweg
+Adalbert-Stifter-Str.
+Adalbertstr.
+Adolf-Baeyer-Str.
+Adolf-Kaschny-Str.
+Adolf-Reichwein-Str.
+Adolfsstr.
+Ahornweg
+Ahrstr.
+Akazienweg
+Albert-Einstein-Str.
+Albert-Schweitzer-Str.
+Albertus-Magnus-Str.
+Albert-Zarthe-Weg
+Albin-Edelmann-Str.
+Albrecht-Haushofer-Str.
+Aldegundisstr.
+Alexanderstr.
+Alfred-Delp-Str.
+Alfred-Kubin-Str.
+Alfred-Stock-Str.
+Alkenrather Str.
+Allensteiner Str.
+Alsenstr.
+Alt Steinbücheler Weg
+Alte Garten
+Alte Heide
+Alte Landstr.
+Alte Ziegelei
+Altenberger Str.
+Altenhof
+Alter Grenzweg
+Altstadtstr.
+Am Alten Gaswerk
+Am Alten Schafstall
+Am Arenzberg
+Am Benthal
+Am Birkenberg
+Am Blauen Berg
+Am Borsberg
+Am Brungen
+Am Büchelter Hof
+Am Buttermarkt
+Am Ehrenfriedhof
+Am Eselsdamm
+Am Falkenberg
+Am Frankenberg
+Am Gesundheitspark
+Am Gierlichshof
+Am Graben
+Am Hagelkreuz
+Am Hang
+Am Heidkamp
+Am Hemmelrather Hof
+Am Hofacker
+Am Hohen Ufer
+Am Höllers Eck
+Am Hühnerberg
+Am Jägerhof
+Am Junkernkamp
+Am Kemperstiegel
+Am Kettnersbusch
+Am Kiesberg
+Am Klösterchen
+Am Knechtsgraben
+Am Köllerweg
+Am Köttersbach
+Am Kreispark
+Am Kronefeld
+Am Küchenhof
+Am Kühnsbusch
+Am Lindenfeld
+Am Märchen
+Am Mittelberg
+Am Mönchshof
+Am Mühlenbach
+Am Neuenhof
+Am Nonnenbruch
+Am Plattenbusch
+Am Quettinger Feld
+Am Rosenhügel
+Am Sandberg
+Am Scherfenbrand
+Am Schokker
+Am Silbersee
+Am Sonnenhang
+Am Sportplatz
+Am Stadtpark
+Am Steinberg
+Am Telegraf
+Am Thelenhof
+Am Vogelkreuz
+Am Vogelsang
+Am Vogelsfeldchen
+Am Wambacher Hof
+Am Wasserturm
+Am Weidenbusch
+Am Weiher
+Am Weingarten
+Am Werth
+Amselweg
+An den Irlen
+An den Rheinauen
+An der Bergerweide
+An der Dingbank
+An der Evangelischen Kirche
+An der Evgl. Kirche
+An der Feldgasse
+An der Fettehenne
+An der Kante
+An der Laach
+An der Lehmkuhle
+An der Lichtenburg
+An der Luisenburg
+An der Robertsburg
+An der Schmitten
+An der Schusterinsel
+An der Steinrütsch
+An St. Andreas
+An St. Remigius
+Andreasstr.
+Ankerweg
+Annette-Kolb-Str.
+Apenrader Str.
+Arnold-Ohletz-Str.
+Atzlenbacher Str.
+Auerweg
+Auestr.
+Auf dem Acker
+Auf dem Blahnenhof
+Auf dem Bohnbüchel
+Auf dem Bruch
+Auf dem End
+Auf dem Forst
+Auf dem Herberg
+Auf dem Lehn
+Auf dem Stein
+Auf dem Weierberg
+Auf dem Weiherhahn
+Auf den Reien
+Auf der Donnen
+Auf der Grieße
+Auf der Ohmer
+Auf der Weide
+Augustastr.
+August-Kekulé-Str.
+A.-W.-v.-Hofmann-Str.
+Bahnallee
+Bahnhofstr.
+Baltrumstr.
+Bamberger Str.
+Baumberger Str.
+Bebelstr.
+Beckers Kämpchen
+Beerenstr.
+Beethovenstr.
+Behringstr.
+Bendenweg
+Bensberger Str.
+Benzstr.
+Bergische Landstr.
+Bergstr.
+Berliner Platz
+Berliner Str.
+Bernhard-Letterhaus-Str.
+Bernhard-Lichtenberg-Str.
+Bernhard-Ridder-Str.
+Bernsteinstr.
+Bertha-Middelhauve-Str.
+Bertha-von-Suttner-Str.
+Bertolt-Brecht-Str.
+Berzeliusstr.
+Bielertstr.
+Biesenbach
+Billrothstr.
+Birkenbergstr.
+Birkengartenstr.
+Birkenweg
+Bismarckstr.
+Bitterfelder Str.
+Blankenburg
+Blaukehlchenweg
+Blütenstr.
+Boberstr.
+Böcklerstr.
+Bodelschwinghstr.
+Bodestr.
+Bogenstr.
+Bohnenkampsweg
+Bohofsweg
+Bonifatiusstr.
+Bonner Str.
+Borkumstr.
+Bornheimer Str.
+Borsigstr.
+Borussiastr.
+Bracknellstr.
+Brahmsweg
+Brandenburger Str.
+Breidenbachstr.
+Breslauer Str.
+Bruchhauser Str.
+Brückenstr.
+Brucknerstr.
+Brüder-Bonhoeffer-Str.
+Buchenweg
+Bürgerbuschweg
+Burgloch
+Burgplatz
+Burgstr.
+Burgweg
+Bürriger Weg
+Burscheider Str.
+Buschkämpchen
+Butterheider Str.
+Carl-Duisberg-Platz
+Carl-Duisberg-Str.
+Carl-Leverkus-Str.
+Carl-Maria-von-Weber-Platz
+Carl-Maria-von-Weber-Str.
+Carlo-Mierendorff-Str.
+Carl-Rumpff-Str.
+Carl-von-Ossietzky-Str.
+Charlottenburger Str.
+Christian-Heß-Str.
+Claasbruch
+Clemens-Winkler-Str.
+Concordiastr.
+Cranachstr.
+Dahlemer Str.
+Daimlerstr.
+Damaschkestr.
+Danziger Str.
+Debengasse
+Dechant-Fein-Str.
+Dechant-Krey-Str.
+Deichtorstr.
+Dhünnberg
+Dhünnstr.

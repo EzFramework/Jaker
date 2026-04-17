@@ -1,0 +1,99 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+
+      - name: Build and run tests (with JaCoCo)
+        run: mvn -B -ntp -Djacoco.minimum=0.0 verify
+
+      - name: Upload JaCoCo report
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-report
+          path: '**/target/site/jacoco'
+
+      - name: Upload JaCoCo aggregated report
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-aggregate-report
+          path: 'target/site/jacoco-aggregate'
+
+      - name: Upload JaCoCo exec
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-exec
+          path: '**/target/jacoco.exec'
+
+  bench:
+    name: Bench (${{ matrix.os }} / ${{ matrix.profile }})
+    runs-on: ${{ matrix.os }}
+    needs: build
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ['ubuntu-latest', 'windows-latest', 'macos-latest']
+        java: ['25']
+        profile: ['smoke', 'ci']
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '${{ matrix.java }}'
+          cache: maven
+
+      - name: Build bench module
+        run: mvn -pl jaker-bench -am -DskipTests=true -B -ntp package
+        shell: bash
+
+      - name: Run benchmarks
+        run: |
+          set -e
+          if [ "${{ matrix.profile }}" = "smoke" ]; then
+            args="-wi 0 -i 1 -f 1"
+          else
+            args="-wi 3 -i 3 -f 1"
+          fi
+          JAR=$( (ls jaker-bench/target/*-shaded.jar 2>/dev/null) || (ls jaker-bench/target/*.jar 2>/dev/null | head -n1) )
+          echo "Using jar: $JAR"
+          java -jar "$JAR" $args -rf json -rff jmh-${{ matrix.profile }}-${{ runner.os }}.json
+        shell: bash
+
+      - name: Upload benchmark results
+        uses: actions/upload-artifact@v4
+        with:
+          name: bench-results-${{ matrix.profile }}-${{ runner.os }}-jdk${{ matrix.java }}
+          path: jmh-${{ matrix.profile }}-${{ runner.os }}.json
