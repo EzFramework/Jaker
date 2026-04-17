@@ -51,3 +51,10 @@ jobs:
         with:
           name: jacoco-exec
           path: '**/target/jacoco.exec'
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: '**/target/jacoco.exec'
+          flags: jacoco
+          fail_ci_if_error: true
