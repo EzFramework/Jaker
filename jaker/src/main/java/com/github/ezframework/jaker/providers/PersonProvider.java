@@ -89,6 +89,16 @@ public final class PersonProvider {
     }
 
     /**
+     * Return a composed full name combining a first name and last name.
+     * This prefers the configured `NameProvider` and locale datasets when available.
+     *
+     * @return full name (e.g. "Jane Doe")
+     */
+    public String fullname() {
+        return firstname() + " " + lastname();
+    }
+
+    /**
      * Return a pseudo-random date of birth between 18 and 90 years ago.
      * Formatted as ISO-8601 (yyyy-MM-dd).
      */
@@ -196,7 +206,7 @@ public final class PersonProvider {
          */
         public String phone() {
             return switch (localeTag) {
-                case "en-GB" -> "44" + (700_000_000 + random.nextInt(100_000_000));
+                case "en-GB" -> "44" + (7_000_000_000L + random.nextInt(1_000_000_000));
                 case "fr" -> "33" + (1 + random.nextInt(9))
                     + pad8(random.nextInt(ONE_HUNDRED_MILLION));
                 case "de" -> "49" + (TEN + random.nextInt(90))

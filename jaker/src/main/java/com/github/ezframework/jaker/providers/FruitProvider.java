@@ -12,6 +12,7 @@ import com.github.ezframework.jaker.data.DataLoader;
 public final class FruitProvider {
     private static final int NAME_INDEX = 0;
     private static final int CATEGORY_INDEX = 1;
+    private static final int COLOR_INDEX = 2;
 
     /** Data loader for datasets. */
     private final DataLoader loader;
@@ -44,6 +45,15 @@ public final class FruitProvider {
      */
     public String category() {
         return field(CATEGORY_INDEX, "Pome");
+    }
+
+    /**
+     * Return the primary color of a random fruit.
+     *
+     * @return color name.
+     */
+    public String color() {
+        return field(COLOR_INDEX, "Red");
     }
 
     private String field(final int fieldIndex, final String fallback) {

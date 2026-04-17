@@ -21,7 +21,17 @@ public final class LoremProvider {
     private static final String[] WORDS = {
         "lorem", "ipsum", "dolor", "sit", "amet", "consectetur",
         "adipiscing", "elit", "sed", "do", "eiusmod", "tempor",
-        "incididunt", "ut", "labore", "et", "dolore", "magna", "aliqua"
+        "incididunt", "ut", "labore", "et", "dolore", "magna", "aliqua",
+        "enim", "ad", "minim", "veniam", "quis", "nostrud", "exercitation",
+        "ullamco", "laboris", "nisi", "aliquip", "ex", "ea", "commodo",
+        "consequat", "duis", "aute", "irure", "in", "reprehenderit",
+        "voluptate", "velit", "esse", "cillum", "fugiat", "nulla",
+        "pariatur", "excepteur", "sint", "occaecat", "cupidatat", "non",
+        "proident", "sunt", "culpa", "qui", "officia", "deserunt",
+        "mollit", "anim", "id", "est", "laborum", "perspiciatis",
+        "unde", "omnis", "iste", "natus", "accusantium", "doloremque",
+        "laudantium", "totam", "rem", "aperiam", "eaque", "ipsa",
+        "quae", "ab", "inventore", "veritatis", "quasi", "architecto"
     };
 
     public LoremProvider(final Locale locale, final Random random) {
@@ -63,5 +73,34 @@ public final class LoremProvider {
      */
     public String word() {
         return WORDS[random.nextInt(WORDS.length)];
+    }
+
+    /**
+     * Returns a lorem ipsum paragraph composed of a number of sentences.
+     *
+     * @return a paragraph of lorem ipsum text containing 3 to 5 sentences.
+     */
+    public String paragraph() {
+        return paragraph(3 + random.nextInt(3));
+    }
+
+    /**
+     * Returns a lorem ipsum paragraph composed of the given number of sentences.
+     *
+     * @param sentenceCount number of sentences in the paragraph
+     * @return lorem ipsum paragraph
+     */
+    public String paragraph(final int sentenceCount) {
+        if (sentenceCount <= 0) {
+            throw new IllegalArgumentException("sentenceCount must be greater than 0");
+        }
+        final StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < sentenceCount; i++) {
+            if (i > 0) {
+                sb.append(' ');
+            }
+            sb.append(sentence(5 + random.nextInt(6)));
+        }
+        return sb.toString();
     }
 }

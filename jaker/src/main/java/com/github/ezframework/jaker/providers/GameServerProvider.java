@@ -13,6 +13,7 @@ public final class GameServerProvider {
     private static final int GAME_INDEX = 0;
     private static final int IP_INDEX = 1;
     private static final int VERSION_INDEX = 2;
+    private static final int MAX_PLAYERS_INDEX = 3;
 
     /** Data loader for datasets. */
     private final DataLoader loader;
@@ -54,6 +55,20 @@ public final class GameServerProvider {
      */
     public String version() {
         return field(VERSION_INDEX, "1.0.0");
+    }
+
+    /**
+     * Return the maximum player count for a random game server.
+     *
+     * @return max player count as integer.
+     */
+    public int playerCount() {
+        final String raw = field(MAX_PLAYERS_INDEX, "32");
+        try {
+            return Integer.parseInt(raw);
+        } catch (final NumberFormatException ignored) {
+            return 32;
+        }
     }
 
     private String field(final int fieldIndex, final String fallback) {
