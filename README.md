@@ -23,9 +23,9 @@ Then add the dependency:
   <artifactId>jaker</artifactId>
   <version>1.0.0</version>
 </dependency>
+```
 
 **Note**: English datasets are provided as the separate module `jaker-data-en-US`. In this multi-module repository the `jaker` core depends on `jaker-data-en-US` so English data is available during local builds. Consumers using JitPack should add the `jaker-data-en-US` artifact as a dependency to include the `en-US` datasets at runtime.
-```
 
 ## Usage
 
