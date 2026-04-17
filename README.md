@@ -105,6 +105,7 @@ System.out.println("updated=" + faker.person().updatedTimestamp());
 System.out.println("source=" + faker.person().source());
 System.out.println("safe phone=" + faker.person().phone());
 System.out.println("unsafe phone=" + faker.person().unsafe().phone());
+System.out.println("Full name: " + faker.person().fullname());
 System.out.println("Random number 1-10: " + faker.number().numberBetween(1, 10));
 System.out.println("Random double: " + faker.number().random());
 System.out.println("Random int below 100: " + faker.number().random(100));
@@ -118,6 +119,15 @@ System.out.println("Host (custom prefix + domain): " + faker.server().hostname("
 System.out.println("IPv4: " + faker.server().ip());
 System.out.println("IPv6: " + faker.server().ip(true));
 System.out.println("Ranged file size: " + faker.file().size(1024, 4096));
+```
+
+```java
+// Generate a count of full names
+Faker faker2 = Jaker.builder().locale("en-US").seed(42).build().faker();
+int count = 5;
+for (int i = 0; i < count; i++) {
+  System.out.println(faker2.person().fullname());
+}
 ```
 
 `PersonProvider` will prefer localized `names`/`surnames`/`phones` datasets when present and fall back to sensible defaults when absent. Phone numbers returned by `person().phone()` are intended as safe examples from locale data packs, while `person().unsafe().phone()` generates locale-shaped random synthetic values.
@@ -194,34 +204,34 @@ For more examples, see `jaker-example` and the tests in `jaker/src/test/java`.
 
 ### Dataset families available
 
-Jaker currently ships these dataset families (loaded from locale packs):
+Jaker currently ships these dataset families (loaded from locale packs).
 
-- `names`
-- `surnames`
-- `streets`
-- `cities`
-- `domains`
-- `phones` (`phones.txt` + optional packed `phones.bin`)
-- `company_names`
-- `creditcards`
-- `countries`
-- `ibans` (available in locales with banking coverage)
-- `bank_formats` (available in locales with banking coverage)
-- `animals` (currently `en-US`)
-- `files` (currently `en-US`)
-- `fruits` (currently `en-US`)
-- `game_servers` (currently `en-US`)
+- `names` — localized name examples (safe)
+- `surnames` — localized surname examples (safe)
+- `streets` — localized street names (safe)
+- `cities` — localized city names (safe)
+- `domains` — example domains (safe)
+- `phones` — localized safe example phone numbers (`phones.txt` + optional `phones.bin`); synthetic values available via `person().unsafe().phone()`
+- `company_names` — localized company names (safe)
+- `creditcards` — example/test card numbers (safe fallback present); synthetic Luhn-valid numbers available via `finance().unsafe().creditCardNumber()`
+- `countries` — localized country data (safe)
+- `ibans` — safe example IBANs taken from public bank/payment documentation (available in locales with banking coverage); synthetic IBAN-like values available via `bank().unsafe().iban()`
+- `bank_formats` — IBAN format templates (available in locales with banking coverage)
+- `animals` (currently `en-US`) — animal names (safe)
+- `files` (currently `en-US`) — file metadata examples (safe)
+- `fruits` (currently `en-US`) — fruit names (safe)
+- `game_servers` (currently `en-US`) — game server metadata (safe)
 
 ### Dataset availability by locale
 
 | Locale | Artifact | Datasets present |
 |---|---|---|
 | `en-US` | `jaker-data-en-US` | `animals`, `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `files`, `fruits`, `game_servers`, `ibans`, `names`, `phones`, `streets`, `surnames` |
-| `en-GB` | `jaker-data-en-GB` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `ibans`, `names`, `phones`, `streets`, `surnames` |
-| `fr` | `jaker-data-fr` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `ibans`, `names`, `phones`, `streets`, `surnames` |
-| `de` | `jaker-data-de` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `ibans`, `names`, `phones`, `streets`, `surnames` |
-| `es` | `jaker-data-es` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `ibans`, `names`, `phones`, `streets`, `surnames` |
-| `nl` | `jaker-data-nl` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `ibans`, `names`, `phones`, `streets`, `surnames` |
+| `en-GB` | `jaker-data-en-GB` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `files`, `fruits`, `game_servers`, `ibans`, `names`, `phones`, `streets`, `surnames` |
+| `fr` | `jaker-data-fr` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `files`, `fruits`, `game_servers`, `ibans`, `names`, `phones`, `streets`, `surnames` |
+| `de` | `jaker-data-de` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `files`, `fruits`, `game_servers`, `ibans`, `names`, `phones`, `streets`, `surnames` |
+| `es` | `jaker-data-es` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `files`, `fruits`, `game_servers`, `ibans`, `names`, `phones`, `streets`, `surnames` |
+| `nl` | `jaker-data-nl` | `bank_formats`, `cities`, `company_names`, `countries`, `creditcards`, `domains`, `files`, `fruits`, `game_servers`, `ibans`, `names`, `phones`, `streets`, `surnames` |
 
 ### Approximate total rows across all locale packs
 
