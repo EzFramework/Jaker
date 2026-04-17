@@ -7,7 +7,7 @@
   <parent>
     <groupId>com.github.EzFramework</groupId>
     <artifactId>Jaker</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -18,12 +18,12 @@
     <dependency>
       <groupId>com.github.EzFramework</groupId>
       <artifactId>jaker</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </dependency>
     <dependency>
       <groupId>com.github.EzFramework</groupId>
       <artifactId>jaker-data-en-US</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </dependency>
   </dependencies>
 
