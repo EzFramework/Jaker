@@ -132,6 +132,27 @@ for (int i = 0; i < count; i++) {
 
 `PersonProvider` will prefer localized `names`/`surnames`/`phones` datasets when present and fall back to sensible defaults when absent. Phone numbers returned by `person().phone()` are intended as safe examples from locale data packs, while `person().unsafe().phone()` generates locale-shaped random synthetic values.
 
+**Safety note & examples**
+
+By default the library returns safe-to-share example values when a dataset provides them (for example `ibans`, `phones`, `creditcards`). If you need synthetic/random test values that may not be safe to share, call the provider's `unsafe()` helper.
+
+Example:
+
+```java
+Faker f = Jaker.builder().locale("en-US").seed(42).build().faker();
+// safe example IBAN from dataset (published example values)
+String safeIban = f.bank().iban();
+// synthetic, randomly generated IBAN-like value (unsafe)
+String unsafeIban = f.bank().unsafe().iban();
+```
+
+Quick safety summary for common providers:
+
+- `person().phone()` — safe examples from datasets; `person().unsafe().phone()` for synthetic values
+- `finance().creditCardNumber()` — safe/test card numbers from datasets; `finance().unsafe().creditCardNumber()` generates Luhn-valid synthetic numbers
+- `bank().iban()` — safe example IBANs from bank documentation datasets; `bank().unsafe().iban()` generates synthetic IBAN-like values
+- `internet()` / `file()` / `gameServer()` / `fruit()` — datasets provide safe example values; use corresponding `unsafe()` APIs when synthetic generation is available
+
 ## Including locale data
 
 

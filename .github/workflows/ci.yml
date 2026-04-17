@@ -62,7 +62,7 @@ jobs:
       matrix:
         os: ['ubuntu-latest', 'windows-latest', 'macos-latest']
         java: ['25']
-        profile: ['smoke', 'ci']
+        profile: ['smoke']
 
     steps:
       - name: Checkout
@@ -97,3 +97,45 @@ jobs:
         with:
           name: bench-results-${{ matrix.profile }}-${{ runner.os }}-jdk${{ matrix.java }}
           path: jmh-${{ matrix.profile }}-${{ runner.os }}.json
+
+      - name: Summarize and post benchmark results
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const fn = 'jmh-${{ matrix.profile }}-${{ runner.os }}.json';
+            let summary = 'No JMH JSON found';
+            if (fs.existsSync(fn)) {
+              try {
+                const data = JSON.parse(fs.readFileSync(fn, 'utf8'));
+                const arr = Array.isArray(data) ? data : (data.benchmarks || []);
+                const n = arr.length || 0;
+                const top = arr
+                  .slice()
+                  .sort((a, b) => (b.primaryMetric?.score || 0) - (a.primaryMetric?.score || 0))
+                  .slice(0, 5)
+                  .map(i => `- ${i.benchmark}: ${i.primaryMetric?.score ?? 'n/a'} ${i.primaryMetric?.scoreUnit ?? ''}`)
+                  .join('\n');
+                summary = `Benchmarks: ${n}\n\nTop results:\n${top}`;
+                fs.writeFileSync(fn.replace('.json', '.summary.txt'), summary);
+              } catch (e) {
+                summary = 'Failed to parse JMH JSON: ' + String(e);
+              }
+            }
+            const body = `## Benchmark summary — \`${process.env.GITHUB_REF}\`\n\n${summary}\n\n_Job: ${process.env.GITHUB_JOB} — Runner: ${process.env.RUNNER_OS}_`;
+            if (github.context.payload.pull_request && github.context.payload.pull_request.number) {
+              await github.rest.issues.createComment({
+                owner: github.context.repo.owner,
+                repo: github.context.repo.repo,
+                issue_number: github.context.payload.pull_request.number,
+                body
+              });
+            } else {
+              await github.rest.repos.createCommitComment({
+                owner: github.context.repo.owner,
+                repo: github.context.repo.repo,
+                commit_sha: github.context.sha,
+                body
+              });
+            }
