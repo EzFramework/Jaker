@@ -35,19 +35,19 @@ jobs:
         run: mvn -B -ntp -Djacoco.minimum=0.0 verify
 
       - name: Upload per-module JaCoCo HTML reports
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: jacoco-module-reports
           path: '**/target/site/jacoco'
 
       - name: Upload aggregated JaCoCo report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: jacoco-aggregate-report
           path: target/site/jacoco-aggregate
 
       - name: Upload JaCoCo execution data
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: jacoco-exec
           path: '**/target/jacoco.exec'
