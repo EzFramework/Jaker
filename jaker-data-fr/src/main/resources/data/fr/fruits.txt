@@ -1,0 +1,84 @@
+# Compiled from open-source fruit lists (Wikidata/Wikipedia-style public taxonomies).
+Acérola|Baie|Rouge
+Ackee|Tropical|Rouge
+Pomme|Pomacée|Rouge
+Abricot|Drupe|Orange
+Avocat|Baie|Vert
+Banane|Baie|Jaune
+Myrtille|Baie|Violet
+Orange amère|Agrume|Orange
+Mûre|Fruit composé|Noir
+Cassis|Baie|Noir
+Orange sanguine|Agrume|Rouge
+Bleuet|Baie|Bleu
+Boysenberry|Fruit composé|Bordeaux
+Fruit à pain|Tropical|Vert
+Cantaloup|Melon|Orange
+Carambole|Tropical|Jaune
+Chérimole|Tropical|Vert
+Cerise|Drupe|Rouge
+Clémentine|Agrume|Orange
+Plaquebière|Fruit composé|Orange
+Noix de coco|Drupe|Brun
+Canneberge|Baie|Rouge
+Cupuaçu|Tropical|Brun
+Groseille|Baie|Rouge
+Datte|Drupe|Brun
+Pitaya|Fruit de cactus|Rose
+Durian|Tropical|Jaune
+Baie de sureau|Baie|Violet
+Feijoà|Baie|Vert
+Figue|Fruit multiple|Violet
+Baie de goji|Baie|Rouge
+Groseille à maquereau|Baie|Vert
+Pamplemousse|Agrume|Jaune
+Raisin|Baie|Violet
+Goyave|Baie|Vert
+Melon de miel|Melon|Vert
+Jabuticaba|Baie|Noir
+Jacquier|Tropical|Jaune
+Prune de Java|Drupe|Violet
+Jujube|Drupe|Rouge
+Kiwi|Baie|Brun
+Kumquat|Agrume|Orange
+Citron|Agrume|Jaune
+Citron vert|Agrume|Vert
+Longan|Tropical|Brun
+Nèfle du Japon|Pomacée|Jaune
+Litchi|Tropical|Rose
+Mandarine|Agrume|Orange
+Mangue|Drupe|Jaune
+Mangoustan|Tropical|Violet
+Fruit miracle|Baie|Rouge
+Mûre de mûrier|Fruit multiple|Noir
+Nectarine|Drupe|Rouge
+Olive|Drupe|Vert
+Orange|Agrume|Orange
+Papaye|Baie|Orange
+Fruit de la passion|Baie|Violet
+Pawpaw|Tropical|Jaune
+Pêche|Drupe|Orange
+Poire|Pomacée|Vert
+Kaki|Baie|Orange
+Ananas|Tropical|Jaune
+Pitanga|Baie|Rouge
+Plantain|Baie|Vert
+Prune|Drupe|Violet
+Grenade|Baie|Rouge
+Pomélo|Agrume|Jaune
+Coing|Pomacée|Jaune
+Rambutan|Tropical|Rouge
+Framboise|Fruit composé|Rouge
+Groseille rouge|Baie|Rouge
+Salak|Tropical|Brun
+Sapotille|Tropical|Brun
+Sapote|Tropical|Vert
+Corossol|Tropical|Vert
+Carambole|Tropical|Jaune
+Fraise|Fruit composé|Rouge
+Pomme cannelle|Tropical|Vert
+Tamarin|Légumineuse|Brun
+Tangerine|Agrume|Orange
+Ugli|Agrume|Jaune
+Pastèque|Melon|Vert
+Mûre blanche|Fruit multiple|Blanc

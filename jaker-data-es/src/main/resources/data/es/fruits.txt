@@ -1,0 +1,84 @@
+# Compiled from open-source fruit lists (Wikidata/Wikipedia-style public taxonomies).
+Acerola|Baya|Rojo
+Ackee|Tropical|Rojo
+Manzana|Pomo|Rojo
+Albaricoque|Drupa|Naranja
+Aguacate|Baya|Verde
+Plátano|Baya|Amarillo
+Arándano rojo|Baya|Morado
+Naranja amarga|Cítrico|Naranja
+Mora|Agregado|Negro
+Grosella negra|Baya|Negro
+Naranja sanguina|Cítrico|Rojo
+Arándano|Baya|Azul
+Boysenberry|Agregado|Burdeos
+Fruta del pan|Tropical|Verde
+Cantalupo|Melón|Naranja
+Carambola|Tropical|Amarillo
+Chirimoya|Tropical|Verde
+Cereza|Drupa|Rojo
+Clementina|Cítrico|Naranja
+Mora de pantano|Agregado|Naranja
+Coco|Drupa|Marrón
+Arándano rojo|Baya|Rojo
+Cupuasú|Tropical|Marrón
+Grosella|Baya|Rojo
+Dátil|Drupa|Marrón
+Fruta del dragón|Fruta de cactus|Rosa
+Durián|Tropical|Amarillo
+Baya de saúco|Baya|Morado
+Feijoa|Baya|Verde
+Higo|Fruta múltiple|Morado
+Baya goji|Baya|Rojo
+Grosella espinosa|Baya|Verde
+Pomelo|Cítrico|Amarillo
+Uva|Baya|Morado
+Guayaba|Baya|Verde
+Melón honeydew|Melón|Verde
+Jabuticaba|Baya|Negro
+Yaca|Tropical|Amarillo
+Ciruela de Java|Drupa|Morado
+Azufaifo|Drupa|Rojo
+Kiwi|Baya|Marrón
+Kumquat|Cítrico|Naranja
+Limón|Cítrico|Amarillo
+Lima|Cítrico|Verde
+Longan|Tropical|Marrón
+Níspero|Pomo|Amarillo
+Lichi|Tropical|Rosa
+Mandarina|Cítrico|Naranja
+Mango|Drupa|Amarillo
+Mangostán|Tropical|Morado
+Fruta milagrosa|Baya|Rojo
+Mora de moral|Fruta múltiple|Negro
+Nectarina|Drupa|Rojo
+Aceituna|Drupa|Verde
+Naranja|Cítrico|Naranja
+Papaya|Baya|Naranja
+Maracuyá|Baya|Morado
+Mamón|Tropical|Amarillo
+Melocotón|Drupa|Naranja
+Pera|Pomo|Verde
+Caqui|Baya|Naranja
+Piña|Tropical|Amarillo
+Pitanga|Baya|Rojo
+Plátano macho|Baya|Verde
+Ciruela|Drupa|Morado
+Granada|Baya|Rojo
+Pomelo chino|Cítrico|Amarillo
+Membrillo|Pomo|Amarillo
+Rambután|Tropical|Rojo
+Frambuesa|Agregado|Rojo
+Grosella roja|Baya|Rojo
+Salak|Tropical|Marrón
+Sapodilla|Tropical|Marrón
+Zapote|Tropical|Verde
+Guanábana|Tropical|Verde
+Carambola|Tropical|Amarillo
+Fresa|Agregado|Rojo
+Anón|Tropical|Verde
+Tamarindo|Legumbre|Marrón
+Tangerina|Cítrico|Naranja
+Ugli|Cítrico|Amarillo
+Sandía|Melón|Verde
+Mora blanca|Fruta múltiple|Blanco

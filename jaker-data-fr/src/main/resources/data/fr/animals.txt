@@ -1,0 +1,145 @@
+# Compiled from open-source animal name lists (Wikidata/Wikipedia-style public taxonomies).
+Oryctérope|Mammifère|femelle|Insectivore
+Albatros|Oiseau|femelle|Piscivore
+Alligator|Reptile|femelle|Carnivore
+Alpaga|Mammifère|mâle|Herbivore
+Antilope|Mammifère|femelle|Herbivore
+Tatou|Mammifère|femelle|Insectivore
+Axolotl|Amphibien|mâle|Carnivore
+Babouin|Mammifère|mâle|Omnivore
+Blaireau|Mammifère|femelle|Omnivore
+Barracuda|Poisson|mâle|Carnivore
+Chauve-souris|Mammifère|femelle|Insectivore
+Ours|Mammifère|mâle|Omnivore
+Castor|Mammifère|femelle|Herbivore
+Bison|Mammifère|mâle|Herbivore
+Sanglier|Mammifère|mâle|Omnivore
+Buffle|Mammifère|mâle|Herbivore
+Papillon|Insecte|femelle|Herbivore
+Chameau|Mammifère|mâle|Herbivore
+Capybara|Mammifère|femelle|Herbivore
+Caribou|Mammifère|femelle|Herbivore
+Casoar|Oiseau|femelle|Omnivore
+Caméléon|Reptile|mâle|Insectivore
+Guépard|Mammifère|femelle|Carnivore
+Chimpanzé|Mammifère|femelle|Omnivore
+Cobra|Reptile|femelle|Carnivore
+Puma|Mammifère|femelle|Carnivore
+Coyote|Mammifère|mâle|Omnivore
+Crabe|Crustacé|mâle|Omnivore
+Grue|Oiseau|femelle|Omnivore
+Crocodile|Reptile|femelle|Carnivore
+Corbeau|Oiseau|mâle|Omnivore
+Cerf|Mammifère|mâle|Herbivore
+Dingo|Mammifère|mâle|Carnivore
+Dauphin|Mammifère|femelle|Carnivore
+Âne|Mammifère|mâle|Herbivore
+Libellule|Insecte|femelle|Carnivore
+Canard|Oiseau|femelle|Omnivore
+Aigle|Oiseau|femelle|Carnivore
+Éléphant|Mammifère|femelle|Herbivore
+Élan|Mammifère|femelle|Herbivore
+Émeu|Oiseau|mâle|Omnivore
+Faucon|Oiseau|femelle|Carnivore
+Furet|Mammifère|femelle|Carnivore
+Flamant rose|Oiseau|femelle|Omnivore
+Renard|Mammifère|mâle|Omnivore
+Grenouille|Amphibien|femelle|Carnivore
+Gazelle|Mammifère|mâle|Herbivore
+Gecko|Reptile|femelle|Insectivore
+Panda géant|Mammifère|femelle|Herbivore
+Gibbon|Mammifère|femelle|Herbivore
+Girafe|Mammifère|femelle|Herbivore
+Chèvre|Mammifère|mâle|Herbivore
+Gorille|Mammifère|femelle|Herbivore
+Grizzly|Mammifère|mâle|Omnivore
+Hamster|Mammifère|femelle|Omnivore
+Autour|Oiseau|mâle|Carnivore
+Hérisson|Mammifère|mâle|Insectivore
+Hippopotame|Mammifère|mâle|Herbivore
+Cheval|Mammifère|mâle|Herbivore
+Colibri|Oiseau|femelle|Herbivore
+Hyène|Mammifère|femelle|Carnivore
+Iguane|Reptile|femelle|Herbivore
+Impala|Mammifère|femelle|Herbivore
+Chacal|Mammifère|femelle|Omnivore
+Jaguar|Mammifère|femelle|Carnivore
+Méduse|Cnidaire|femelle|Carnivore
+Kangourou|Mammifère|mâle|Herbivore
+Koala|Mammifère|femelle|Herbivore
+Dragon de Komodo|Reptile|femelle|Carnivore
+Lémur|Mammifère|femelle|Omnivore
+Léopard|Mammifère|femelle|Carnivore
+Lion|Mammifère|mâle|Carnivore
+Lionne|Mammifère|femelle|Carnivore
+Lama|Mammifère|femelle|Herbivore
+Homard|Crustacé|mâle|Omnivore
+Lynx|Mammifère|mâle|Carnivore
+Ara|Oiseau|femelle|Herbivore
+Mandrill|Mammifère|mâle|Omnivore
+Lamantin|Mammifère|mâle|Herbivore
+Raie manta|Poisson|femelle|Carnivore
+Suricate|Mammifère|femelle|Insectivore
+Taupe|Mammifère|femelle|Insectivore
+Varan|Reptile|mâle|Carnivore
+Orignal|Mammifère|femelle|Herbivore
+Bœuf musqué|Mammifère|mâle|Herbivore
+Narval|Mammifère|mâle|Carnivore
+Rossignol|Oiseau|femelle|Insectivore
+Pieuvre|Mollusque|mâle|Carnivore
+Opossum|Mammifère|mâle|Omnivore
+Orang-outan|Mammifère|mâle|Herbivore
+Autruche|Oiseau|mâle|Omnivore
+Loutre|Mammifère|mâle|Carnivore
+Hibou|Oiseau|mâle|Carnivore
+Panthère|Mammifère|femelle|Carnivore
+Perroquet|Oiseau|femelle|Herbivore
+Paon|Oiseau|mâle|Omnivore
+Pélican|Oiseau|mâle|Carnivore
+Manchot|Oiseau|femelle|Carnivore
+Faucon pèlerin|Oiseau|femelle|Carnivore
+Ornithorynque|Mammifère|femelle|Carnivore
+Ours polaire|Mammifère|mâle|Carnivore
+Porc-épic|Mammifère|femelle|Herbivore
+Pronghorn|Mammifère|femelle|Herbivore
+Macareux|Oiseau|mâle|Carnivore
+Python|Reptile|femelle|Carnivore
+Caille|Oiseau|mâle|Omnivore
+Lapin|Mammifère|femelle|Herbivore
+Raton laveur|Mammifère|femelle|Omnivore
+Corbeau|Oiseau|mâle|Omnivore
+Renard roux|Mammifère|mâle|Omnivore
+Panda roux|Mammifère|femelle|Herbivore
+Renne|Mammifère|mâle|Herbivore
+Rhinocéros|Mammifère|femelle|Herbivore
+Salamandre|Amphibien|mâle|Carnivore
+Scorpion|Arachnide|mâle|Carnivore
+Hippocampe|Poisson|mâle|Carnivore
+Otarie|Mammifère|mâle|Carnivore
+Phoque|Mammifère|femelle|Carnivore
+Requin|Poisson|mâle|Carnivore
+Mouffette|Mammifère|mâle|Omnivore
+Paresseux|Mammifère|femelle|Herbivore
+Escargot|Mollusque|mâle|Herbivore
+Serpent|Reptile|mâle|Carnivore
+Léopard des neiges|Mammifère|femelle|Carnivore
+Moineau|Oiseau|mâle|Omnivore
+Calmar|Mollusque|femelle|Carnivore
+Écureuil|Mammifère|femelle|Omnivore
+Cigogne|Oiseau|mâle|Carnivore
+Cygne|Oiseau|femelle|Herbivore
+Tapir|Mammifère|femelle|Herbivore
+Tigre|Mammifère|femelle|Carnivore
+Toucan|Oiseau|femelle|Omnivore
+Tortue|Reptile|mâle|Omnivore
+Vautour|Oiseau|mâle|Carnivore
+Morse|Mammifère|femelle|Carnivore
+Phacochère|Mammifère|femelle|Omnivore
+Baleine|Mammifère|mâle|Carnivore
+Sanglier sauvage|Mammifère|mâle|Omnivore
+Loup|Mammifère|mâle|Carnivore
+Glouton|Mammifère|mâle|Omnivore
+Wombat|Mammifère|femelle|Herbivore
+Pic|Oiseau|femelle|Insectivore
+Yak|Mammifère|mâle|Herbivore
+Zèbre|Mammifère|femelle|Herbivore

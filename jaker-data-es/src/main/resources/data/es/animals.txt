@@ -1,0 +1,145 @@
+# Compiled from open-source animal name lists (Wikidata/Wikipedia-style public taxonomies).
+Oso hormiguero|Mamífero|masculino|Insectívoro
+Albatros|Ave|femenino|Piscívoro
+Caimán|Reptil|femenino|Carnívoro
+Alpaca|Mamífero|masculino|Herbívoro
+Antílope|Mamífero|femenino|Herbívoro
+Armadillo|Mamífero|femenino|Insectívoro
+Ajolote|Anfibio|masculino|Carnívoro
+Babuino|Mamífero|masculino|Omnívoro
+Tejón|Mamífero|femenino|Omnívoro
+Barracuda|Pez|masculino|Carnívoro
+Murciélago|Mamífero|femenino|Insectívoro
+Oso|Mamífero|masculino|Omnívoro
+Castor|Mamífero|femenino|Herbívoro
+Bisonte|Mamífero|masculino|Herbívoro
+Jabalí|Mamífero|masculino|Omnívoro
+Búfalo|Mamífero|masculino|Herbívoro
+Mariposa|Insecto|femenino|Herbívoro
+Camello|Mamífero|masculino|Herbívoro
+Capibara|Mamífero|femenino|Herbívoro
+Caribú|Mamífero|femenino|Herbívoro
+Casuario|Ave|femenino|Omnívoro
+Camaleón|Reptil|masculino|Insectívoro
+Guepardo|Mamífero|femenino|Carnívoro
+Chimpancé|Mamífero|femenino|Omnívoro
+Cobra|Reptil|femenino|Carnívoro
+Puma|Mamífero|femenino|Carnívoro
+Coyote|Mamífero|masculino|Omnívoro
+Cangrejo|Crustáceo|masculino|Omnívoro
+Grulla|Ave|femenino|Omnívoro
+Cocodrilo|Reptil|femenino|Carnívoro
+Cuervo|Ave|masculino|Omnívoro
+Ciervo|Mamífero|masculino|Herbívoro
+Dingo|Mamífero|masculino|Carnívoro
+Delfín|Mamífero|femenino|Carnívoro
+Burro|Mamífero|masculino|Herbívoro
+Libélula|Insecto|femenino|Carnívoro
+Pato|Ave|femenino|Omnívoro
+Águila|Ave|femenino|Carnívoro
+Elefante|Mamífero|femenino|Herbívoro
+Alce|Mamífero|femenino|Herbívoro
+Emú|Ave|masculino|Omnívoro
+Halcón|Ave|femenino|Carnívoro
+Hurón|Mamífero|femenino|Carnívoro
+Flamenco|Ave|femenino|Omnívoro
+Zorro|Mamífero|masculino|Omnívoro
+Rana|Anfibio|femenino|Carnívoro
+Gacela|Mamífero|masculino|Herbívoro
+Gecko|Reptil|femenino|Insectívoro
+Panda gigante|Mamífero|femenino|Herbívoro
+Gibón|Mamífero|femenino|Herbívoro
+Jirafa|Mamífero|femenino|Herbívoro
+Cabra|Mamífero|masculino|Herbívoro
+Gorila|Mamífero|femenino|Herbívoro
+Oso grizzly|Mamífero|masculino|Omnívoro
+Hámster|Mamífero|femenino|Omnívoro
+Gavilán|Ave|masculino|Carnívoro
+Erizo|Mamífero|masculino|Insectívoro
+Hipopótamo|Mamífero|masculino|Herbívoro
+Caballo|Mamífero|masculino|Herbívoro
+Colibrí|Ave|femenino|Herbívoro
+Hiena|Mamífero|femenino|Carnívoro
+Iguana|Reptil|femenino|Herbívoro
+Impala|Mamífero|femenino|Herbívoro
+Chacal|Mamífero|femenino|Omnívoro
+Jaguar|Mamífero|femenino|Carnívoro
+Medusa|Cnidario|femenino|Carnívoro
+Canguro|Mamífero|masculino|Herbívoro
+Koala|Mamífero|femenino|Herbívoro
+Dragón de Komodo|Reptil|femenino|Carnívoro
+Lémur|Mamífero|femenino|Omnívoro
+Leopardo|Mamífero|femenino|Carnívoro
+León|Mamífero|masculino|Carnívoro
+Leona|Mamífero|femenino|Carnívoro
+Llama|Mamífero|femenino|Herbívoro
+Langosta|Crustáceo|masculino|Omnívoro
+Lince|Mamífero|masculino|Carnívoro
+Guacamayo|Ave|femenino|Herbívoro
+Mandril|Mamífero|masculino|Omnívoro
+Manatí|Mamífero|masculino|Herbívoro
+Manta raya|Pez|femenino|Carnívoro
+Suricato|Mamífero|femenino|Insectívoro
+Topo|Mamífero|femenino|Insectívoro
+Varano|Reptil|masculino|Carnívoro
+Alce americano|Mamífero|femenino|Herbívoro
+Buey almizclero|Mamífero|masculino|Herbívoro
+Narval|Mamífero|masculino|Carnívoro
+Ruiseñor|Ave|femenino|Insectívoro
+Pulpo|Molusco|masculino|Carnívoro
+Zarigüeya|Mamífero|masculino|Omnívoro
+Orangután|Mamífero|masculino|Herbívoro
+Avestruz|Ave|masculino|Omnívoro
+Nutria|Mamífero|masculino|Carnívoro
+Búho|Ave|masculino|Carnívoro
+Pantera|Mamífero|femenino|Carnívoro
+Loro|Ave|femenino|Herbívoro
+Pavo real|Ave|masculino|Omnívoro
+Pelícano|Ave|masculino|Carnívoro
+Pingüino|Ave|femenino|Carnívoro
+Halcón peregrino|Ave|femenino|Carnívoro
+Ornitorrinco|Mamífero|femenino|Carnívoro
+Oso polar|Mamífero|masculino|Carnívoro
+Puercoespín|Mamífero|femenino|Herbívoro
+Berrendo|Mamífero|femenino|Herbívoro
+Frailecillo|Ave|masculino|Carnívoro
+Pitón|Reptil|femenino|Carnívoro
+Codorniz|Ave|masculino|Omnívoro
+Conejo|Mamífero|femenino|Herbívoro
+Mapache|Mamífero|femenino|Omnívoro
+Cuervo|Ave|masculino|Omnívoro
+Zorro rojo|Mamífero|masculino|Omnívoro
+Panda rojo|Mamífero|femenino|Herbívoro
+Reno|Mamífero|masculino|Herbívoro
+Rinoceronte|Mamífero|femenino|Herbívoro
+Salamandra|Anfibio|masculino|Carnívoro
+Escorpión|Arácnido|masculino|Carnívoro
+Caballito de mar|Pez|masculino|Carnívoro
+León marino|Mamífero|masculino|Carnívoro
+Foca|Mamífero|femenino|Carnívoro
+Tiburón|Pez|masculino|Carnívoro
+Mofeta|Mamífero|masculino|Omnívoro
+Perezoso|Mamífero|femenino|Herbívoro
+Caracol|Molusco|masculino|Herbívoro
+Serpiente|Reptil|masculino|Carnívoro
+Leopardo de las nieves|Mamífero|femenino|Carnívoro
+Gorrión|Ave|masculino|Omnívoro
+Calamar|Molusco|femenino|Carnívoro
+Ardilla|Mamífero|femenino|Omnívoro
+Cigüeña|Ave|masculino|Carnívoro
+Cisne|Ave|femenino|Herbívoro
+Tapir|Mamífero|femenino|Herbívoro
+Tigre|Mamífero|femenino|Carnívoro
+Tucán|Ave|femenino|Omnívoro
+Tortuga|Reptil|masculino|Omnívoro
+Buitre|Ave|masculino|Carnívoro
+Morsa|Mamífero|femenino|Carnívoro
+Facóquero|Mamífero|femenino|Omnívoro
+Ballena|Mamífero|masculino|Carnívoro
+Jabalí salvaje|Mamífero|masculino|Omnívoro
+Lobo|Mamífero|masculino|Carnívoro
+Glotón|Mamífero|masculino|Omnívoro
+Wombat|Mamífero|femenino|Herbívoro
+Pájaro carpintero|Ave|femenino|Insectívoro
+Yak|Mamífero|masculino|Herbívoro
+Cebra|Mamífero|femenino|Herbívoro
