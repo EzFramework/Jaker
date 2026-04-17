@@ -1,0 +1,6 @@
+jdk:
+  - openjdk25
+before_install:
+  - sdk install java 25-open || true
+install:
+  - mvn install -DskipTests -B -ntp

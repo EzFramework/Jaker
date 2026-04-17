@@ -16,8 +16,7 @@ class DataLoaderIntegrationTest {
             .isNotNull()
             .isNotEmpty();
         assertThat(phones)
-            .anySatisfy(phone -> assertThat(phone).contains("+").contains("-")
-        );
+            .allSatisfy(phone -> assertThat(phone).matches("^1\\d{10}$"));
     }
 
     @Test

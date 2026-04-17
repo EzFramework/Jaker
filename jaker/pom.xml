@@ -34,9 +34,24 @@
       <resource>
         <directory>src/main/resources</directory>
       </resource>
-      <!-- Use local en-US data from the sibling module so building this module does not depend on a published artifact. -->
+      <!-- Use local locale data from sibling modules so building this module does not depend on a published artifact. -->
       <resource>
         <directory>../jaker-data-en-US/src/main/resources</directory>
+      </resource>
+      <resource>
+        <directory>../jaker-data-en-GB/src/main/resources</directory>
+      </resource>
+      <resource>
+        <directory>../jaker-data-fr/src/main/resources</directory>
+      </resource>
+      <resource>
+        <directory>../jaker-data-nl/src/main/resources</directory>
+      </resource>
+      <resource>
+        <directory>../jaker-data-es/src/main/resources</directory>
+      </resource>
+      <resource>
+        <directory>../jaker-data-de/src/main/resources</directory>
       </resource>
     </resources>
     <plugins>

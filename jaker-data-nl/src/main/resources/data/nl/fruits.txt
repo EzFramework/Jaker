@@ -1,0 +1,84 @@
+# Compiled from open-source fruit lists (Wikidata/Wikipedia-style public taxonomies).
+Acerola|Bes|Rood
+Ackee|Tropisch|Rood
+Appel|Pitfruit|Rood
+Abrikoos|Steenvrucht|Oranje
+Avocado|Bes|Groen
+Banaan|Bes|Geel
+Bosbes|Bes|Paars
+Bittere sinaasappel|Citrusvrucht|Oranje
+Braam|Samengesteld vrucht|Zwart
+Zwarte bes|Bes|Zwart
+Bloedsinaasappel|Citrusvrucht|Rood
+Blauwe bes|Bes|Blauw
+Boysenbes|Samengesteld vrucht|Donkerrood
+Broodboom|Tropisch|Groen
+Kantaloep|Meloen|Oranje
+Carambola|Tropisch|Geel
+Cherimoya|Tropisch|Groen
+Kers|Steenvrucht|Rood
+Clementijn|Citrusvrucht|Oranje
+Veenbes|Samengesteld vrucht|Oranje
+Kokosnoot|Steenvrucht|Bruin
+Cranberry|Bes|Rood
+Cupuaçu|Tropisch|Bruin
+Aalbes|Bes|Rood
+Dadel|Steenvrucht|Bruin
+Drakenvrucht|Cactusvrucht|Roze
+Doerian|Tropisch|Geel
+Vlierbes|Bes|Paars
+Feijoa|Bes|Groen
+Vijg|Meervoudige vrucht|Paars
+Goji-bes|Bes|Rood
+Kruisbes|Bes|Groen
+Grapefruit|Citrusvrucht|Geel
+Druif|Bes|Paars
+Guave|Bes|Groen
+Honingmeloen|Meloen|Groen
+Jabuticaba|Bes|Zwart
+Jakfruit|Tropisch|Geel
+Java-pruim|Steenvrucht|Paars
+Jujube|Steenvrucht|Rood
+Kiwi|Bes|Bruin
+Kumquat|Citrusvrucht|Oranje
+Citroen|Citrusvrucht|Geel
+Limoen|Citrusvrucht|Groen
+Longan|Tropisch|Bruin
+Japanse mispel|Pitfruit|Geel
+Lychee|Tropisch|Roze
+Mandarijn|Citrusvrucht|Oranje
+Mango|Steenvrucht|Geel
+Mangosteen|Tropisch|Paars
+Wondervrucht|Bes|Rood
+Moerbes|Meervoudige vrucht|Zwart
+Nectarine|Steenvrucht|Rood
+Olijf|Steenvrucht|Groen
+Sinaasappel|Citrusvrucht|Oranje
+Papaja|Bes|Oranje
+Passievrucht|Bes|Paars
+Pawpaw|Tropisch|Geel
+Perzik|Steenvrucht|Oranje
+Peer|Pitfruit|Groen
+Kaki|Bes|Oranje
+Ananas|Tropisch|Geel
+Pitanga|Bes|Rood
+Bakbanaan|Bes|Groen
+Pruim|Steenvrucht|Paars
+Granaatappel|Bes|Rood
+Pomelo|Citrusvrucht|Geel
+Kwee|Pitfruit|Geel
+Rambutan|Tropisch|Rood
+Framboos|Samengesteld vrucht|Rood
+Rode bes|Bes|Rood
+Salak|Tropisch|Bruin
+Sapodilla|Tropisch|Bruin
+Sapote|Tropisch|Groen
+Zuurzak|Tropisch|Groen
+Stervrucht|Tropisch|Geel
+Aardbei|Samengesteld vrucht|Rood
+Suikerappel|Tropisch|Groen
+Tamarinde|Peulvrucht|Bruin
+Tangerine|Citrusvrucht|Oranje
+Ugli-vrucht|Citrusvrucht|Geel
+Watermeloen|Meloen|Groen
+Witte moerbes|Meervoudige vrucht|Wit

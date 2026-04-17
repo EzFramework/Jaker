@@ -68,6 +68,23 @@ public final class InternetProvider {
     }
 
     /**
+     * Return an email address using the provided local part and domain.
+     *
+     * @param localPart local-part value before the @ sign
+     * @param domain    domain value after the @ sign
+     * @return email address.
+     */
+    public String email(final String localPart, final String domain) {
+        if (localPart == null || localPart.isBlank()) {
+            throw new IllegalArgumentException("localPart must not be blank");
+        }
+        if (domain == null || domain.isBlank()) {
+            throw new IllegalArgumentException("domain must not be blank");
+        }
+        return localPart.toLowerCase(Locale.ROOT) + "@" + domain.toLowerCase(Locale.ROOT);
+    }
+
+    /**
      * Access random/synthetic internet value generation.
      *
      * @return unsafe internet provider.

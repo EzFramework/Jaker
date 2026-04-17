@@ -20,6 +20,14 @@
     <module>jaker-bench</module>
   </modules>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub EzFramework Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/EzFramework/Jaker</url>
+    </repository>
+  </distributionManagement>
+
   <profiles>
     <profile>
       <id>example</id>

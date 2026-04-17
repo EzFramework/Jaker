@@ -89,6 +89,16 @@ public final class PersonProvider {
     }
 
     /**
+     * Return a composed full name combining a first name and last name.
+     * This prefers the configured `NameProvider` and locale datasets when available.
+     *
+     * @return full name (e.g. "Jane Doe")
+     */
+    public String fullname() {
+        return firstname() + " " + lastname();
+    }
+
+    /**
      * Return a pseudo-random date of birth between 18 and 90 years ago.
      * Formatted as ISO-8601 (yyyy-MM-dd).
      */
@@ -147,15 +157,21 @@ public final class PersonProvider {
         if (!phones.isEmpty()) {
             return phones.get(random.nextInt(phones.size()));
         }
-        return switch (localeTag) {
-            case "en-GB" -> FALLBACK_SAFE_PHONE_EN_GB;
-            case "fr" -> FALLBACK_SAFE_PHONE_FR;
-            case "de" -> FALLBACK_SAFE_PHONE_DE;
-            case "es" -> FALLBACK_SAFE_PHONE_ES;
-            case "nl" -> FALLBACK_SAFE_PHONE_NL;
-            case "en-US" -> FALLBACK_SAFE_PHONE_EN_US;
-            default -> FALLBACK_SAFE_PHONE_EN_US;
-        };
+        switch (localeTag) {
+            case "en-GB":
+                return FALLBACK_SAFE_PHONE_EN_GB;
+            case "fr":
+                return FALLBACK_SAFE_PHONE_FR;
+            case "de":
+                return FALLBACK_SAFE_PHONE_DE;
+            case "es":
+                return FALLBACK_SAFE_PHONE_ES;
+            case "nl":
+                return FALLBACK_SAFE_PHONE_NL;
+            case "en-US":
+            default:
+                return FALLBACK_SAFE_PHONE_EN_US;
+        }
     }
 
     /**
@@ -195,25 +211,29 @@ public final class PersonProvider {
          * @return synthetic locale-based phone number.
          */
         public String phone() {
-            return switch (localeTag) {
-                case "en-GB" -> "44" + (700_000_000 + random.nextInt(100_000_000));
-                case "fr" -> "33" + (1 + random.nextInt(9))
-                    + pad8(random.nextInt(ONE_HUNDRED_MILLION));
-                case "de" -> "49" + (TEN + random.nextInt(90))
-                    + pad7(random.nextInt(TEN_MILLION));
-                case "es" -> "34" + (6 + random.nextInt(4))
-                    + pad8(random.nextInt(ONE_HUNDRED_MILLION));
-                case "nl" -> "31" + (1 + random.nextInt(9))
-                    + pad8(random.nextInt(ONE_HUNDRED_MILLION));
-                case "en-US" -> "1"
-                    + pad3(TWO_HUNDRED + random.nextInt(800))
-                    + pad3(TWO_HUNDRED + random.nextInt(800))
-                    + pad4(random.nextInt(TEN_THOUSAND));
-                default -> "1"
-                    + pad3(TWO_HUNDRED + random.nextInt(800))
-                    + pad3(TWO_HUNDRED + random.nextInt(800))
-                    + pad4(random.nextInt(TEN_THOUSAND));
-            };
+            final String result;
+            switch (localeTag) {
+                case "en-GB":
+                    result = "44" + (7_000_000_000L + random.nextInt(1_000_000_000));
+                    break;
+                case "fr":
+                    result = "33" + (1 + random.nextInt(9)) + pad8(random.nextInt(ONE_HUNDRED_MILLION));
+                    break;
+                case "de":
+                    result = "49" + (TEN + random.nextInt(90)) + pad7(random.nextInt(TEN_MILLION));
+                    break;
+                case "es":
+                    result = "34" + (6 + random.nextInt(4)) + pad8(random.nextInt(ONE_HUNDRED_MILLION));
+                    break;
+                case "nl":
+                    result = "31" + (1 + random.nextInt(9)) + pad8(random.nextInt(ONE_HUNDRED_MILLION));
+                    break;
+                case "en-US":
+                default:
+                    result = "1" + pad3(TWO_HUNDRED + random.nextInt(800)) + pad3(TWO_HUNDRED + random.nextInt(800)) + pad4(random.nextInt(TEN_THOUSAND));
+                    break;
+            }
+            return result;
         }
 
         private String pad3(final int value) {

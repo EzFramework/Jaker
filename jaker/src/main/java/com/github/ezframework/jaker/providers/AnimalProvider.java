@@ -13,6 +13,7 @@ public final class AnimalProvider {
     private static final int NAME_INDEX = 0;
     private static final int CATEGORY_INDEX = 1;
     private static final int GENDER_INDEX = 2;
+    private static final int DIET_INDEX = 3;
 
     /** Data loader for datasets. */
     private final DataLoader loader;
@@ -54,6 +55,15 @@ public final class AnimalProvider {
      */
     public String gender() {
         return field(GENDER_INDEX, "unknown");
+    }
+
+    /**
+     * Return the dietary classification of a random animal.
+     *
+     * @return diet type (e.g. Carnivore, Herbivore, Omnivore).
+     */
+    public String diet() {
+        return field(DIET_INDEX, "Omnivore");
     }
 
     private String field(final int fieldIndex, final String fallback) {

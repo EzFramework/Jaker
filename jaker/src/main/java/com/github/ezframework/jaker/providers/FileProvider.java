@@ -13,6 +13,7 @@ public final class FileProvider {
     private static final int NAME_INDEX = 0;
     private static final int EXTENSION_INDEX = 1;
     private static final int SIZE_INDEX = 2;
+    private static final int MIME_TYPE_INDEX = 3;
 
     /** Data loader for datasets. */
     private final DataLoader loader;
@@ -59,6 +60,16 @@ public final class FileProvider {
         } catch (final NumberFormatException ignored) {
             return 1024L;
         }
+    }
+
+    /**
+     * Return the MIME type of a random file entry.
+     *
+     * @return MIME type string.
+     */
+    public String mimeType() {
+        final String raw = field(MIME_TYPE_INDEX, "application/octet-stream");
+        return raw;
     }
 
     /**
