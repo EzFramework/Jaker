@@ -45,7 +45,7 @@
     <maven.checkstyle.plugin.version>3.6.0</maven.checkstyle.plugin.version>
     <checkstyle.skip>false</checkstyle.skip>
   <!-- JaCoCo (test coverage) -->
-  <jacoco.version>0.8.13</jacoco.version>
+  <jacoco.version>0.8.14</jacoco.version>
   <!-- Minimum instruction coverage ratio (0.0 - 1.0). Override with -Djacoco.minimum=0.2 -->
   <jacoco.minimum>0.0</jacoco.minimum>
   </properties>
